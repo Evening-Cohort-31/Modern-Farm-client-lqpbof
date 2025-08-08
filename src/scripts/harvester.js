@@ -29,7 +29,7 @@ export const harvestPlants = (fieldArray) => {  //harvestPlants() must accept th
     for (const seedObject of fieldArray){
 
     if (seedObject.type === "Corn"){    //only return half the number of plant objects for corn 
-        for (let i=0; i < seedObject.output; i+= 2){ 
+        for (let i=0; i < Math.floor(seedObject.output / 2); i++){ 
         harvestedFoodArray.push(seedObject)    
         }
     }  
