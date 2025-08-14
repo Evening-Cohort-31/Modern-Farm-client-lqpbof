@@ -25,7 +25,7 @@ export const addPlant = (seedObject) => {
   } else {
     fieldArray.push(seedObject);
   }
-  return fieldArray; // unsure if this is the right thing to return atm
+  return fieldArray; 
 };
 
 // Create and export a function called "usePlants" that returns a copy of fieldArray.
