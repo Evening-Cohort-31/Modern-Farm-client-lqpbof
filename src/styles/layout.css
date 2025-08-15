@@ -1,0 +1,21 @@
+body {
+    background: cornsilk;
+}
+
+.plant {
+    display: flex;
+
+}
+
+.plant {
+    display: flex;
+    margin: 2%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: x-large;
+
+}
